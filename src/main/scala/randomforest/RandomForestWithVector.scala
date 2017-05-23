@@ -1,13 +1,12 @@
 package randomforest
 
 
-import org.apache.spark.SparkConf
-import org.apache.spark.ml.feature.{VectorIndexer, StringIndexer, VectorAssembler}
+import org.apache.spark.ml.feature.{StringIndexer, VectorAssembler, VectorIndexer}
 import org.apache.spark.ml.linalg.Vectors
 import org.apache.spark.ml.regression.RandomForestRegressor
 import org.apache.spark.rdd.RDD
-import org.apache.spark.{SparkContext, SparkConf}
 import org.apache.spark.sql._
+import org.apache.spark.{SparkConf, SparkContext}
 
 /**
   * Created by limingming on 2017/5/4.

@@ -3,7 +3,6 @@ package randomforest
 
 import org.apache.spark.ml.classification.RandomForestClassifier
 import org.apache.spark.ml.feature._
-import org.apache.spark.sql._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 
 /**

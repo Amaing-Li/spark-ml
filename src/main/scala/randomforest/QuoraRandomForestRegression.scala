@@ -1,10 +1,8 @@
 package randomforest
 
 
-import org.apache.spark.SparkConf
 import org.apache.spark.ml.feature._
 import org.apache.spark.ml.regression.RandomForestRegressor
-import org.apache.spark.sql._
 import org.apache.spark.sql.{DataFrame, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
